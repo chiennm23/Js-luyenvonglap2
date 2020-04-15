@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính giai thừa 1 số dương</title>
+</head>
+<body>
+<script>
+    function factorial(amount) {
+        let count = 0;
+        let multi = 1;
+        while (count < amount){
+            count++;
+            multi *= count;
+        } document.write("Giai thừa của " + count + " là " + multi);
+    }
+    let amount = +prompt("Nhập số cần tính giai thừa");
+    factorial(amount);
+</script>
+</body>
+</html>
